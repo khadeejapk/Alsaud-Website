@@ -203,7 +203,7 @@ h6, .body__overlay {
   --rs-theme-light-blue: #0D80CE;
   --rs-theme-green: #023B4A;
   --rs-theme-light-green: #507A7C;
-  --rs-theme-yellow: #B34646;
+  --rs-theme-yellow: #F7C600;
   --rs-theme-deep-blue: #3B37FD;
   --rs-text-primary: #616161;
   --rs-text-secondary: #CBCCCD;
@@ -17878,9 +17878,10 @@ background: linear-gradient(to right, #2e3579 , #3498db); /* W3C, IE 10+/ Edge, 
   }
 }
 .rs-services-details-wrapper .rs-list-item ul {
-  display: grid;
-  grid-template-columns: 300px auto;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 300px auto; */
+  /* align-items: center; */
   gap: 8px 0px;
 }
 @media only screen and (max-width: 575px) {
@@ -25776,6 +25777,24 @@ height: auto;
 
 .p-b{
   padding-bottom: 30px;
+}
+
+.pad-b{
+  padding-bottom: 10px;
+}
+
+.service-card{
+display: flex !important;
+flex-direction: column !important; 
+height:700px  !important;
+}
+
+.top-padding{
+padding-top: 10px !important;
+}
+
+.top-padd{
+padding-top: 25px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
