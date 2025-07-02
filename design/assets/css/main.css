@@ -26801,6 +26801,12 @@ color: #000 !important;
   align-items: center;
 }
 
+.sub-box{
+display: flex !important;
+flex-direction: column;
+height: auto;
+}
+
 
 /* .first-circle{
   background-color: #007fff;
